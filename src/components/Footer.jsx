@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Button } from "../styles/Button";
 import { NavLink } from "react-router-dom";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="container grid grid-four-column">
           <div className="footer-about">
             <h3>Lashari Technical</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Owner of LASHARITECHNICAL Muhammad Shahzaib Khan Lashari</p>
           </div>
 
           {/* 2nd column */}
@@ -58,19 +58,12 @@ const Footer = () => {
               </div>
               <div>
                 <NavLink
-                 to='https://www.linkedin.com/MuhammadShahzaib'
+                 to='https://www.linkedin.com/in/shahzaib-khan-250405278/'
                  target="_blank">
                   <FaLinkedin className="icons" />
                 </NavLink>
               </div>
-              <div>
-                <NavLink
-                  to="https://www.twitter.com/MuhammadShahzaib"
-                  target="_blank"
-                >
-                  <FaTwitter className="icons" />
-                </NavLink>
-              </div>
+              
             </div>
           </div>
 

@@ -18,7 +18,7 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "HOME_UPDATE",
       payload: {
-        name: "Lashari Technical",
+        name: "Muhammad Shahzaib",
         image: "./images/hero.svg",
       },
     });
@@ -28,7 +28,7 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "ABOUT_UPDATE",
       payload: {
-        name: "Shahzaib Lashari",
+        name: "Shahzaib Balouch",
         image: "./images/about1.svg",
       },
     });
